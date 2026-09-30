@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="banner.svg" alt="Muhayy Ud Din — Robotics Researcher" width="100%"/>
+<img src="assets/banner.svg" alt="Muhayy Ud Din, Robotics Researcher" width="100%"/>
 
 <br/>
 
-[![Homepage](https://img.shields.io/badge/Homepage-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://muhayyuddin1.wixsite.com/homepage)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.es/citations?user=vPNmbjAAAAAJ&hl=en)
-[![Blog](https://img.shields.io/badge/Blog-0F172A?style=for-the-badge&logo=hashnode&logoColor=white)](https://muhayyuddin.github.io/blogs/index.html)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muhayyuddin.ahmed@ku.ac.ae)
+<a href="https://muhayyuddin1.wixsite.com/homepage"><img src="assets/badge-homepage.svg" alt="Homepage"/></a>&nbsp;
+<a href="https://scholar.google.es/citations?user=vPNmbjAAAAAJ&hl=en"><img src="assets/badge-google-scholar.svg" alt="Google Scholar"/></a>&nbsp;
+<a href="https://muhayyuddin.github.io/blogs/index.html"><img src="assets/badge-blog.svg" alt="Blog"/></a>&nbsp;
+<a href="mailto:muhayyuddin.ahmed@ku.ac.ae"><img src="assets/badge-email.svg" alt="Email"/></a>
 
 </div>
 
@@ -18,6 +18,10 @@
 Postdoctoral Research Fellow at the **Khalifa University Center for Autonomous Robotic Systems (KUCARS)** in Abu Dhabi, and part of the team setting up a new robotics research lab at **Higher Colleges of Technology (HCT)**.
 
 My goal is to take robots out of the lab and make them **robust, intelligent, and unafraid of the real world**. My work connects **classical motion planning and control** with **modern learning-based methods**: foundation models that reason and act, planners that come with guarantees, and systems that run on real hardware, from tabletop arms to autonomous surface vessels.
+
+<div align="center">
+<img src="assets/pipeline.svg" alt="Research pipeline: perceive, plan, act" width="100%"/>
+</div>
 
 <table>
 <tr>
@@ -30,15 +34,14 @@ My goal is to take robots out of the lab and make them **robust, intelligent, an
 - **Vision-language-action models**: generalist policies for manipulation
 - **World models and embodied AI**: predictive models for planning
 - **Marine robotics**: USV/ROV autonomy, inspection, and maritime security
-- **Robotic perception**: visual servoing, tracking, underwater vision
+- **Robotic perception**: visual servoing, tracking, and underwater vision
 
 </td>
 <td width="50%" valign="top">
 
 ### Background
 
-- **Ph.D.**, Automatic Control, Robotics and Computer Vision, UPC Barcelona
-  *Thesis: Physics-based Motion Planning for Grasping and Manipulation*
+- **Ph.D.**, Automatic Control, Robotics and Computer Vision, UPC Barcelona<br/>*Thesis: Physics-based Motion Planning for Grasping and Manipulation*
 - **Project Manager**, MBZIRC Maritime Grand Challenge (USV + UAV + manipulator in GNSS-denied conditions)
 - **R&D Engineer**, ITK Engineering (Bosch Group): medical robotics, AR
 - **Visiting researcher**, Kavraki Lab (Rice University) and DLR Institute of Robotics and Mechatronics
@@ -98,32 +101,18 @@ My goal is to take robots out of the lab and make them **robust, intelligent, an
 
 ## Tech Stack
 
-**Languages & frameworks**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![ROS](https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ros&logoColor=white)
-
-**Simulation & tooling**
-
-![Gazebo](https://img.shields.io/badge/Gazebo-FF6C37?style=flat-square&logo=gazebo&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+<p>
+<img src="assets/tech-python.svg" alt="Python"/>
+<img src="assets/tech-cpp.svg" alt="C++"/>
+<img src="assets/tech-pytorch.svg" alt="PyTorch"/>
+<img src="assets/tech-ros.svg" alt="ROS"/>
+<img src="assets/tech-gazebo.svg" alt="Gazebo"/>
+<img src="assets/tech-docker.svg" alt="Docker"/>
+<img src="assets/tech-linux.svg" alt="Linux"/>
+<img src="assets/tech-git.svg" alt="Git"/>
+</p>
 
 **Hardware experience:** ABB YuMi · KUKA LWR · PAL TIAGo · UR5 / UR10 · Franka FR3 · Bravo5 underwater manipulator
-
----
-
-## GitHub Activity
-
-<div align="center">
-
-<img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Muhayyuddin&show_icons=true&theme=transparent&title_color=0A66C2&icon_color=0A66C2&text_color=6B7280&hide_border=true&count_private=true"/>
-<img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Muhayyuddin&layout=compact&theme=transparent&title_color=0A66C2&text_color=6B7280&hide_border=true"/>
-
-</div>
 
 ---
 
