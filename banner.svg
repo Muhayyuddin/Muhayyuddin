@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Muhayy Ud Din, Postdoctoral Research Fellow in robotics">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1222"/>
+      <stop offset="1" stop-color="#14305c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4f8cff"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.25" r="0.6">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="280" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="280" rx="14" fill="url(#glow)"/>
+
+  <!-- Sampling-based planning tree (RRT-style) with obstacles and a solution path -->
+  <g opacity="0.95">
+    <circle cx="930" cy="205" r="30" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.18"/>
+    <circle cx="1090" cy="170" r="22" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.18"/>
+    <circle cx="780" cy="95" r="20" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.18"/>
+
+    <g stroke="#4f8cff" stroke-opacity="0.45" stroke-width="1.5" fill="none" stroke-linecap="round">
+      <path d="M770 170 L800 120 L860 90"/>
+      <path d="M770 170 L760 240"/>
+      <path d="M840 185 L880 240 L950 250"/>
+      <path d="M840 185 L830 250"/>
+      <path d="M900 130 L940 165 L1010 160 L1050 200"/>
+      <path d="M980 110 L1000 50"/>
+      <path d="M1050 80 L1095 120 L1150 140"/>
+      <path d="M700 210 L690 150 L740 100"/>
+      <path d="M700 210 L740 255"/>
+    </g>
+
+    <g fill="#4f8cff" fill-opacity="0.7">
+      <circle cx="800" cy="120" r="3"/><circle cx="860" cy="90" r="3"/>
+      <circle cx="760" cy="240" r="3"/><circle cx="880" cy="240" r="3"/>
+      <circle cx="950" cy="250" r="3"/><circle cx="830" cy="250" r="3"/>
+      <circle cx="940" cy="165" r="3"/><circle cx="1010" cy="160" r="3"/>
+      <circle cx="1050" cy="200" r="3"/><circle cx="1000" cy="50" r="3"/>
+      <circle cx="1095" cy="120" r="3"/><circle cx="1150" cy="140" r="3"/>
+      <circle cx="690" cy="150" r="3"/><circle cx="740" cy="100" r="3"/>
+      <circle cx="740" cy="255" r="3"/>
+    </g>
+
+    <path d="M700 210 L770 170 L840 185 L900 130 L980 110 L1050 80 L1120 70"
+          fill="none" stroke="url(#accent)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"
+          pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" from="1" to="0" dur="3s" begin="0.3s" fill="freeze"/>
+    </path>
+
+    <circle cx="700" cy="210" r="7" fill="#4f8cff"/>
+    <circle cx="1120" cy="70" r="9" fill="#22d3ee">
+      <animate attributeName="r" values="9;12;9" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="70" r="18" fill="none" stroke="#22d3ee" stroke-opacity="0.4"/>
+  </g>
+
+  <!-- Text -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="64" y="120" font-size="54" font-weight="700" fill="#ffffff" letter-spacing="0.5">Muhayy Ud Din</text>
+    <rect x="66" y="140" width="120" height="4" rx="2" fill="url(#accent)"/>
+    <text x="64" y="186" font-size="22" font-weight="500" fill="#dbe6f5">Robotics Researcher · Postdoctoral Fellow</text>
+    <text x="64" y="220" font-size="16" fill="#9fb3cf">Robot Learning  ·  Task &amp; Motion Planning  ·  Marine Robotics</text>
+    <text x="64" y="250" font-size="14" fill="#6f86a6">Khalifa University · KUCARS · Abu Dhabi, UAE</text>
+  </g>
+</svg>
