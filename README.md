@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Muhayy Ud Din — Robotics Researcher" width="100%"/>
+<img src="banner.svg" alt="Muhayy Ud Din — Robotics Researcher" width="100%"/>
 
 <br/>
 
